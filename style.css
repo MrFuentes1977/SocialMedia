@@ -84,7 +84,7 @@ img {
 
 /* Nombre de perfil con id */
 #nombre-perfil {
-    font-weight: bold; /* Corregido a 'bold' */
+    font-weight: bold; /* Corrección aplicada */
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     border-bottom: 1px solid black;
@@ -95,6 +95,6 @@ h2 {
     color: #FFD700;
     border-bottom: 1px solid #FFD700;
     padding-bottom: 5px;
-    text-align: center; /* Para centrar "Mis publicaciones" */
+    text-align: center; /* Centrado */
     font-size: 30px; /* Tamaño solicitado */
 }
