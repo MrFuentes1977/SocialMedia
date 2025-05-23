@@ -1,0 +1,100 @@
+/* Reset básico */
+* {
+    box-sizing: border-box;
+}
+
+/* Selector body */
+body {
+    background-color: rgb(27, 26, 26);
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Selector header */
+header {
+    background-color: #000000;
+    color: #FFD700;
+    padding: 5px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+/* Selector main */
+main {
+    background-color: #1C1C1C;
+    color: #FFFFFF;
+    width: 400px;
+    margin: auto;
+    padding: 25px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+/* Selector footer */
+footer {
+    background-color: #000000;
+    color: #FFD700;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Selector div */
+div {
+    margin-top: 10px;
+    padding: 10px;
+    border-bottom: 1px solid #FFD700;
+}
+
+/* Clase posteo */
+.posteo {
+    background-color: #2a2a2a;
+}
+
+/* Clase anuncio */
+.anuncio {
+    background-color: #1e3a5f;
+    border-left: 3px solid #FFD700;
+}
+
+/* Imágenes dentro de posteo y anuncio */
+.posteo img, 
+.anuncio img {
+    width: 100%;
+    max-width: 300px;
+    border: 2px solid #333;
+    border-radius: 4px;
+}
+
+/* Selector imágenes generales */
+img {
+    width: 100%;
+}
+
+/* Imagen de perfil con id */
+#foto-perfil {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+/* Nombre de perfil con id */
+#nombre-perfil {
+    font-weight: bold; /* Corregido a 'bold' */
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    border-bottom: 1px solid black;
+}
+
+/* Títulos h2 */
+h2 {
+    color: #FFD700;
+    border-bottom: 1px solid #FFD700;
+    padding-bottom: 5px;
+    text-align: center; /* Para centrar "Mis publicaciones" */
+    font-size: 30px; /* Tamaño solicitado */
+}
